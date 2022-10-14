@@ -1,0 +1,359 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif Arial,
+        Helvetica, sans-serif;
+    
+}
+
+.container{
+    width: fit-content;
+    padding: auto;
+    margin: 0;
+}
+
+.hero {
+    height:100vh;
+    width: 100% ;
+    background-image: url(./wp2831917-black-background-png.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: #f9004d;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #f9004d;
+    transition: .5s;
+}
+
+.btn {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+
+}
+
+h1 {
+    color: white;
+    margin: 20px 0 20px;
+    font-size: 75px;
+}
+
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+image {
+    height: auto;
+    width: auto;
+}
+i{
+    background-color: #f9004d;
+    size: 50%;
+    width: 10%;
+    height: 40%;
+    border-radius: 2px;
+}
+
+.about-text {
+    width: 44%;
+
+}
+
+.main {
+    width: auto;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.about-text,
+h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text,
+h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text,.intro {
+    color: #fcfc;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+
+.btn-l {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s
+}
+
+.btn-l:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+.service {
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    float: inline-start;
+    flex-direction: row;
+}
+
+.extra{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.hi{
+    color: white;
+    font-size: 23px;
+    margin-bottom:15px;
+}
+.para{
+    color: #fcfc;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 27px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+li{
+    list-style: disc;
+    list-style-position: outside;
+    line-height: 20px;
+    border-top: 10px;
+    padding-top: 5px;
+}
+li:nth-child(even){
+    color: #f9004d;
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.contact-me{
+    width: 100%;
+    height: auto;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.con{
+color: white;
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 25px;
+padding-top: 5%;
+padding-bottom: 4px;
+}
+.btn-2{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn-2:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer; 
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+
+}
+.email,
+.name{
+    width: 100%;
+    border-radius: 10px;
+    border:2px solid #f9004d;
+    margin-bottom: 20px;
+    padding: 2%;
+    background-color: transparent;
+    color: white;
+
+}
+textarea{
+    width: 100%;
+    padding: 2%;
+    border-radius: 10px;
+    border: 2ppx solid #f9004d;
+    background-color: transparent;
+    color: white;
+} 
+.project{
+    background-color: #101010;
+
+}
+.proH{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{ 
+    height:auto;
+     width:50%;
+    border-radius: 15px;
+}
+.btn-3{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-3:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer; 
+}
+footer{
+    width: 100%;
+    background-color: #282727;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10%;
+    padding-bottom: 2%;
+
+}
